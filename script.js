@@ -56,7 +56,7 @@ var line3 = "Original: '" + val3 + "' → Converted: " + converted3 +
 var line4 = "Original: '" + val4 + "' → Converted: " + converted4 +
             " → isNaN: " + Number.isNaN(converted4) +
             " → isInteger: " + Number.isInteger(converted4) + "<br>";
-
+            
 // Combine all lines into one string
 var conversionResults = line1 + line2 + line3 + line4;
 

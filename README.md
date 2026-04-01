@@ -11,7 +11,7 @@
 https://sergio-2026.github.io/COMP484_HW9/
 
 ## 3. Screenshot
-images/screenshot.png
+![Page Screenshot](images/screenshot.png)
 
 ## 4. Reflection
 - What part was easiest?

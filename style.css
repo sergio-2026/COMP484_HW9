@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f3f3;
+}
+
+.card {
+  background-color: #ffffff;      /* white card surface */
+  border: 1px solid #dddddd;      /* light border line */
+  padding: 16px;                  /* space inside the card */
+  margin: 16px auto;              /* space outside + center horizontally */
+  max-width: 600px;               /* keep cards from getting too wide */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* soft shadow */
+}
+
+.card h2 {
+  margin-top: 0;               /* remove extra space at top of card */
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 8px;
+}

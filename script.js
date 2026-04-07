@@ -12,15 +12,21 @@ var dateText = "Today is " + month + "/" + day + "/" + year;
 document.getElementById("dateOutput").innerHTML = dateText;
 
 // part 2 - number conversion tests (no arrays or loops here)
-var val1 = "55";
-var val2 = "29.95";
-var val3 = "hello";
-var val4 = "200";
+
+var val1 = "55";        //value that can be converted to an number
+var val2 = "29.95";     //one value must include a decimal
+var val3 = "example";   //one value cannot be converted to a number
+var val4 = "200";       //a second value that can be converted to a number
 
 var conv1 = Number(val1);
 var conv2 = Number(val2);
 var conv3 = Number(val3);
 var conv4 = Number(val4);
+
+/*Requirement: Your code must use all of the following:
+`Number()`
+`Number.isNaN()`
+`Number.isInteger()`*/
 
 var line1 = "Original: '" + val1 + "' → Converted: " + conv1 +
   " → isNaN: " + Number.isNaN(conv1) +
